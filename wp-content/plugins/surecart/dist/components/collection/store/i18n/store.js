@@ -1,0 +1,1 @@
+import{createStore}from"@stencil/store";import{getSerializedState}from"../utils";const{i18n:i18n}=getSerializedState(),{state:state,onChange:onChange,on:on,set:set,get:get,dispose:dispose}=createStore({countryFields:[],defaultCountryFields:[],...i18n},((e,t)=>JSON.stringify(e)!==JSON.stringify(t)));export default state;export{state,onChange,on,set,get,dispose};

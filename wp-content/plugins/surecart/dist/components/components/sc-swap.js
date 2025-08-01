@@ -1,0 +1,1 @@
+import{S as ScSwap$1,d as defineCustomElement$1}from"./sc-swap2.js";const ScSwap=ScSwap$1,defineCustomElement=defineCustomElement$1;export{ScSwap,defineCustomElement};

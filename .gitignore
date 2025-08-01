@@ -1,0 +1,3 @@
+git rm -r --cached wp-content/plugins/google-listings-and-ads/vendor/
+git add .
+git commit -m "Remove vendor folder from Git tracking"

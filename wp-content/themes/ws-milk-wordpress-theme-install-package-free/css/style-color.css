@@ -1,0 +1,44 @@
+/*** Style Color ***/
+.post-navigation a:hover .post-title, 
+.post-navigation a:focus .post-title,
+.ws-title h2 span,
+.ws-title2 h3 span {
+    color:#cb1a2b !important;
+}
+.pagination .prev:hover, 
+.pagination .prev:focus, 
+.pagination .next:hover, 
+.pagination .next:focus {
+	background-color:#cb1a2b;
+}
+ .woocommerce a.button,
+.woocommerce #respond input#submit, 
+.woocommerce a.button:hover, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {
+    background-color:#cb1a2b !important;
+}
+button:hover, 
+button:focus, 
+input[type="button"]:hover, 
+input[type="button"]:focus, 
+input[type="reset"]:hover, 
+input[type="reset"]:focus, 
+input[type="submit"]:hover, 
+input[type="submit"]:focus,
+.button.compare:hover:after,
+.button.yith-wcqv-button:hover:after,
+.button.tinvwl_add_to_wishlist_button:hover:after,
+.woocommerce ul.products li.product:before, 
+ul.products li.product:before,
+.woocommerce ul.products li.product:after, 
+.ul.products li.product:after,
+.woocommerce ul.products li.product > a:first-child:before, 
+ul.products li.product > a:first-child:before,
+.woocommerce ul.products li.product > a:first-child:after, 
+ul.products li.product > a:first-child:after {
+    background:#cb1a2b;
+}

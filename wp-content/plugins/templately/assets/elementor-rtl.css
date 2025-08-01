@@ -1,0 +1,57 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/.pnpm/postcss-loader@6.2.1_postcss@8.5.3_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/.pnpm/sass-loader@12.6.0_sass@1.86.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./react-src/styles/platforms/elementor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bg-warning {
+  background-color: #f39c12 !important;
+}
+
+.bg-danger {
+  background-color: #c0392b !important;
+}
+
+.text-danger {
+  color: #c0392b !important;
+}
+
+#templately-elementor.dialog-type-lightbox .dialog-widget-content {
+  width: 80%;
+  height: 80%;
+}
+#templately-elementor.dialog-type-lightbox .dialog-message {
+  padding: 0px;
+  text-align: unset;
+  font-size: initial;
+  line-height: normal;
+}
+#templately-elementor.dialog-type-lightbox .dialog-message,
+#templately-elementor.dialog-type-lightbox .dialog-lightbox-content {
+  padding: 0px;
+  height: 100%;
+}
+
+.elementor-add-new-section .elementor-add-section-area-button.elementor-add-templately-button {
+  background-color: rgb(86, 51, 209);
+  background-image: url(../images/logo-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 5px;
+}
+.elementor-add-new-section .elementor-add-section-area-button.elementor-add-templately-button > i.eicon-plus:before {
+  content: "";
+  display: inline-block;
+}
+
+.elementor-element-wrapper:not(.elementor-element--promotion) .templately-widget-icon:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/logo-widget-icon.svg) 0 0/100% no-repeat;
+}
+
+#elementor-controls .elementor-control-tl_site_logo.elementor-control-type-media {
+  pointer-events: none;
+}

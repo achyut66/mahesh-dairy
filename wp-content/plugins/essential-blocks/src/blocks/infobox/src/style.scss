@@ -1,0 +1,91 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ @import '../../../controls/src/components/Image/imageComponent.scss';
+
+/* Clickable infobox styling */
+.eb-parent-wrapper[data-clickable="true"] {
+	cursor: pointer;
+	transition: opacity 0.2s ease;
+}
+
+.eb-parent-wrapper[data-clickable="true"]:hover {
+	opacity: 0.9;
+}
+
+.eb-parent-wrapper[data-clickable="true"]:focus {
+	outline: 2px solid #007cba;
+	outline-offset: 2px;
+}
+
+/* Ensure links inside clickable infobox maintain their own cursor */
+.eb-parent-wrapper[data-clickable="true"] a {
+	cursor: pointer;
+}
+
+.wp-block-essential-blocks-infobox {
+	.eb-parent-wrapper {
+		position: relative;
+	}
+}
+
+div.eb-infobox-wrapper {
+	overflow: hidden;
+
+	.infobox-wrapper-inner {
+		display: flex;
+		position: relative;
+
+		.icon-img-wrapper {
+			max-width: 100%;
+		}
+
+		img {
+			max-width: 100%;
+			object-fit: cover;
+			display: inline-block;
+		}
+	}
+
+	.icon-img-wrapper {
+		overflow: hidden;
+	}
+
+	.eb-infobox-image-wrapper {
+		overflow: hidden;
+		display: flex;
+	}
+
+	.title,
+	.subtitle,
+	.description {
+		margin: 0;
+		padding: 10px 0;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.contents-wrapper {
+		.infobox-btn:hover:before {
+			opacity: 1;
+		}
+
+		.infobox-btn {
+			display: inline-block;
+		}
+	}
+	.eb-image-caption-wrap {
+		line-height: 1;
+		padding: 15px;
+	}
+}
+
+.eb-infobox-btn-wrapper {
+	position: relative;
+}

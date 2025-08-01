@@ -1,0 +1,45 @@
+import { r as registerInstance, h, a as getElement } from './index-745b6bec.js';
+import { i as isRtl } from './page-align-0cdacf32.js';
+
+const scLineItemCss = ":host{display:block;--mobile-size:380px;--price-size:var(--sc-font-size-medium);--line-item-grid-template-columns:auto 1fr 1fr;line-height:var(--sc-line-height-dense)}.item{display:grid;align-items:center;grid-template-columns:var(--line-item-grid-template-columns)}@media screen and (min-width: var(--mobile-size)){.item{flex-wrap:no-wrap}}.item__title{color:var(--sc-line-item-title-color)}.item__price{color:var(--sc-input-label-color)}.item__title,.item__price{font-size:var(--sc-font-size-medium);font-weight:var(--sc-font-weight-semibold)}.item__description,.item__price-description{font-size:var(--sc-font-size-small);line-height:var(--sc-line-height-dense);color:var(--sc-input-label-color)}::slotted([slot=price-description]){margin-top:var(--sc-line-item-text-margin, 5px);color:var(--sc-input-label-color);text-decoration:none}.item__end{flex:1;display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;align-self:flex-end;width:100%;margin-top:20px}@media screen and (min-width: 280px){.item__end{width:auto;text-align:right;margin-left:20px;margin-top:0}.item--is-rtl .item__end{margin-left:0;margin-right:20px}.item__price-text{text-align:right;display:flex;flex-direction:column;align-items:flex-end}}.item__price-currency{font-size:var(--sc-font-size-small);color:var(--sc-input-label-color);text-transform:var(--sc-currency-transform, uppercase);margin-right:8px}.item__text{flex:1}.item__price-description{display:-webkit-box}::slotted([slot=image]){margin-right:20px;width:50px;height:50px;object-fit:cover;border-radius:4px;border:1px solid var(--sc-color-gray-200);display:block;box-shadow:var(--sc-input-box-shadow)}::slotted([slot=price-description]){display:inline-block;width:100%;line-height:1}.item__price-layout{font-size:var(--sc-font-size-x-large);font-weight:var(--sc-font-weight-semibold);display:flex;align-items:center}.item__price{font-size:var(--price-size)}.item_currency{font-weight:var(--sc-font-weight-normal);font-size:var(--sc-font-size-xx-small);color:var(--sc-input-label-color);margin-right:var(--sc-spacing-small);text-transform:var(--sc-currency-text-transform, uppercase)}.item--is-rtl.item__description,.item--is-rtl.item__price-description{text-align:right}.item--is-rtl .item__text{text-align:right}@media screen and (min-width: 280px){.item--is-rtl .item__end{width:auto;text-align:left;margin-left:0;margin-top:0}.item--is-rtl .item__price-text{text-align:left}}";
+const ScLineItemStyle0 = scLineItemCss;
+
+const ScLineItem = class {
+    constructor(hostRef) {
+        registerInstance(this, hostRef);
+        this.price = undefined;
+        this.currency = undefined;
+        this.hasImageSlot = undefined;
+        this.hasTitleSlot = undefined;
+        this.hasDescriptionSlot = undefined;
+        this.hasPriceSlot = undefined;
+        this.hasPriceDescriptionSlot = undefined;
+        this.hasCurrencySlot = undefined;
+    }
+    componentWillLoad() {
+        this.hasImageSlot = !!this.hostElement.querySelector('[slot="image"]');
+        this.hasTitleSlot = !!this.hostElement.querySelector('[slot="title"]');
+        this.hasDescriptionSlot = !!this.hostElement.querySelector('[slot="description"]');
+        this.hasPriceSlot = !!this.hostElement.querySelector('[slot="price"]');
+        this.hasPriceDescriptionSlot = !!this.hostElement.querySelector('[slot="price-description"]');
+        this.hasCurrencySlot = !!this.hostElement.querySelector('[slot="currency"]');
+    }
+    render() {
+        return (h("div", { key: '5705b2223e37a4e5c823c4e2abc5a54bc29eb273', part: "base", class: {
+                'item': true,
+                'item--has-image': this.hasImageSlot,
+                'item--has-title': this.hasTitleSlot,
+                'item--has-description': this.hasDescriptionSlot,
+                'item--has-price': this.hasPriceSlot,
+                'item--has-price-description': this.hasPriceDescriptionSlot,
+                'item--has-price-currency': this.hasCurrencySlot,
+                'item--is-rtl': isRtl(),
+            } }, h("div", { key: '6301c8136e10e6ca8e183c8896374f58d042146b', class: "item__image", part: "image" }, h("slot", { key: '28144ec0848eb48640e9387e8699b64663839ae1', name: "image" })), h("div", { key: '60ef4a163ab95d730bade431dbe2328c7dd1f710', class: "item__text", part: "text" }, h("div", { key: 'ad93ea464491a5772aa4582150d31210952b5502', class: "item__title", part: "title" }, h("slot", { key: 'cd654007438c60db4847c155cdd727acf1363996', name: "title" })), h("div", { key: '4dbe6b9161acb26b8cd5687158fbdcfa9398ab91', class: "item__description", part: "description" }, h("slot", { key: '55002f88ffe012b612e1a9ff7bbdb5f8cd45fabb', name: "description" }))), h("div", { key: '3b15bc820f9a744614fd5d7d69872f98fd10991e', class: "item__end", part: "price" }, h("div", { key: 'b9be042eb5bed8f23fe9ea21c0e346088c5bfbed', class: "item__price-currency", part: "currency" }, h("slot", { key: '82be91c3f20aacbdf62539148ae5c0f627812c8f', name: "currency" })), h("div", { key: '248550f9d4cc480342d6851880846ea5391a14e5', class: "item__price-text", part: "price-text" }, h("div", { key: 'ba3a4217e9c70868bb3990d68672b5877ed08c9a', class: "item__price", part: "price" }, h("slot", { key: 'e410588d58655ed7e2204e513d591f85a261eee8', name: "price" })), h("div", { key: '7c496ee50d0e121722d36a7fd1848b3e1f6bd49a', class: "item__price-description", part: "price-description" }, h("slot", { key: 'a5313b87b099c9e77ed48ca7c6569a6d1a0b5850', name: "price-description" }))))));
+    }
+    get hostElement() { return getElement(this); }
+};
+ScLineItem.style = ScLineItemStyle0;
+
+export { ScLineItem as sc_line_item };
+
+//# sourceMappingURL=sc-line-item.entry.js.map

@@ -1,0 +1,553 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/.pnpm/postcss-loader@6.2.1_postcss@8.5.3_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/.pnpm/sass-loader@12.6.0_sass@1.86.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./react-src/styles/admin.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.templately-builder-nav {
+  margin-top: 20px;
+}
+.templately-builder-nav .nav-tab-wrapper .nav-tab {
+  float: right;
+  border: none;
+  border-bottom: none;
+  margin-right: 0.5em;
+  margin-bottom: 0;
+  padding: 0;
+  background: transparent;
+  color: #50575e;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.templately-builder-nav .nav-tab-wrapper .nav-tab.active a {
+  background: #f0f0f1;
+  color: #000;
+}
+.templately-builder-nav .nav-tab-wrapper .nav-tab.active a {
+  border-bottom: 1px solid #f0f0f1;
+  margin-bottom: -1px;
+}
+.templately-builder-nav .nav-tab-wrapper .nav-tab a {
+  float: right;
+  border: 1px solid #c3c4c7;
+  border-bottom: none;
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.71428571;
+  font-weight: 600;
+  background: #dcdcde;
+  color: #50575e;
+  text-decoration: none;
+}
+.templately-builder-nav .nav-tab-wrapper .nav-tab a:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.templately-builder-nav .nav-tab-wrapper .nav-tab a:hover {
+  color: #3c434a;
+  background: #FFF;
+}
+.templately-builder-nav .subsubsub {
+  margin-top: 20px;
+}
+.templately-builder-nav .rendered {
+  margin-top: 30px;
+  padding: 20px;
+}
+.templately-builder-nav .rendered h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 14px;
+}
+.templately-builder-nav .rendered p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #475467;
+  margin: 0;
+  margin-bottom: 30px;
+  max-width: 490px;
+}
+.templately-builder-nav .rendered .button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #5453fd;
+  min-height: 30px;
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #5453fd;
+  border-radius: 60px;
+  background: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.templately-builder-nav .rendered .button span {
+  padding: 12px 36px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.templately-builder-nav .rendered .button:focus, .templately-builder-nav .rendered .button:focus-visible {
+  box-shadow: none;
+  outline: 0;
+}
+.templately-builder-nav .rendered .button:hover {
+  color: #FFF;
+  background: #5453fd;
+  border-color: #5453fd;
+}
+.templately-builder-nav .rendered .button[disabled] {
+  color: #667085 !important;
+  border-color: #D0D5DD !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  cursor: default !important;
+  transform: none !important;
+}
+
+.templately-popup.swal2-show {
+  position: relative;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-header {
+  display: none;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-header .templately-logo svg {
+  width: 80px;
+  height: 80px;
+}
+.templately-popup.swal2-show .swal2-html-container p {
+  font-size: 14px;
+}
+.templately-popup.swal2-show .swal2-html-container.templately-sweetalert-html .reverting .templately-preloader.templately-preloader-logo {
+  margin-top: 2.5em;
+  margin-bottom: 1.3em;
+}
+.templately-popup.swal2-show .swal2-html-container.templately-sweetalert-html .reverting .templately-preloader.templately-preloader-logo img {
+  width: 100px;
+}
+.templately-popup.swal2-show button.close-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-body {
+  background: #ffffff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-block-start: 0px;
+  padding-block-end: 40px;
+  font-family: "DM Sans", sans-serif;
+  overflow-y: auto;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-body .normal {
+  text-align: right;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-body .normal h2 {
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 6px;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-body .normal .warning-text {
+  background: rgba(96, 114, 255, 0.15);
+  color: #000;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 8px 16px 8px 10px;
+  position: relative;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-body .normal .warning-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 3px;
+  background: #5453FD;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-footer {
+  border-block-start: transparent;
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
+  padding-inline: 20px;
+  justify-content: space-between;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-footer .templately-button {
+  margin-inline-start: unset;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-footer .templately-button:hover {
+  background: #4040e3;
+  box-shadow: none;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-footer .templately-button:first-child {
+  order: 1;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-footer .templately-button.confirm-revert {
+  background: #f82626;
+}
+.templately-popup.swal2-show .templately-display-condition-modal-footer .templately-button.confirm-revert:hover {
+  background: #f82626;
+}
+.templately-popup.swal2-show .swal2-close:focus,
+.templately-popup.swal2-show .swal2-close:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+.templately-popup.swal2-show .swal2-actions .swal2-styled {
+  color: #FFFFFF !important;
+}
+.templately-popup.swal2-show .swal2-actions .swal2-styled.swal2-confirm {
+  background: #5453fd;
+}
+.templately-popup.swal2-show .swal2-actions .swal2-styled.swal2-confirm:hover {
+  background: #4040e3;
+}
+.templately-popup.swal2-show .swal2-actions .swal2-styled a {
+  color: #FFF !important;
+  text-decoration: none !important;
+}
+.templately-popup.swal2-show .swal2-actions .swal2-styled:focus, .templately-popup.swal2-show .swal2-actions .swal2-styled:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
+
+.toplevel_page_templately .templately-admin-body #templatelyAdmin, .toplevel_page_templately .templately-admin-body, .toplevel_page_templately #wpbody, .toplevel_page_templately #wpwrap, .toplevel_page_templately #wpbody-content, .toplevel_page_templately #wpcontent {
+  height: 100%;
+  padding-bottom: 0;
+}
+
+#adminmenuwrap {
+  z-index: 10001 !important;
+}
+
+.toplevel_page_templately .notice {
+  display: none !important;
+}
+.toplevel_page_templately .templately-admin-preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  min-height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.toplevel_page_templately .templately-admin-preloader > svg {
+  margin-left: 10px;
+}
+.toplevel_page_templately #wpcontent {
+  padding-right: 0px;
+}
+.toplevel_page_templately #wpbody-content {
+  padding-bottom: 0;
+}
+.toplevel_page_templately #wpbody-content > *:not(.templately-admin-body) {
+  display: none !important;
+}
+@media (max-width: 782px) {
+  .wp-responsive-open #wpbody {
+    left: 0;
+  }
+}
+.toplevel_page_templately .templately-admin-body {
+  background-color: #fff;
+}
+@media (max-width: 782px) {
+  .wp-responsive-open .templately-admin-body {
+    padding-right: 190px;
+  }
+}
+.toplevel_page_templately .templately-admin-body #templatelyAdmin {
+  height: calc(100% - 40px);
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.templately-theme-builder-modal-container {
+  background: rgba(0, 0, 0, 0.7) !important;
+  padding: 50px 10px !important;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup {
+  width: calc(100% - 55px);
+  max-width: 500px;
+  min-width: initial !important;
+  margin-left: 55px;
+  border-radius: 24px;
+  background: transparent !important;
+  padding: 0;
+  position: relative;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-close-button {
+  width: 40px;
+  height: 40px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #475467;
+  position: absolute;
+  top: 0;
+  left: -55px;
+  font-size: 32px !important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none !important;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-close-button:hover {
+  color: #000000;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html {
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: visible !important;
+  text-align: right;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid var(--gray-200, #eaecf0);
+  background-color: #f9fafb;
+  background-image: url(../images/customizer-header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-start-start-radius: 16px;
+  border-start-end-radius: 16px;
+  padding: 24px;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-header .templately-title {
+  color: #1d2939;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-header .templately-details {
+  color: #475467;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body:last-child {
+  border-end-start-radius: 16px;
+  border-end-end-radius: 16px;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #eaecf0);
+  background: var(--White, #fff);
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-platform .components-flex {
+  display: flex;
+  flex-direction: row;
+  row-gap: 8px;
+  flex-wrap: wrap;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-platform .components-flex .components-radio-control__option {
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  display: flex;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 12px 10px 22px;
+  align-items: center;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-platform .components-flex .components-radio-control__option input {
+  margin-inline-end: 0;
+  margin-block-start: 0;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-platform .components-flex .components-radio-control__option label {
+  color: #344054;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper label {
+  color: var(--gray-700, #344054);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.43;
+  text-transform: initial;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper .templately-theme-builder__choose-type {
+  width: 100%;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper .templately-theme-builder__choose-type .templately-theme-builder__choose-type__control {
+  min-height: 44px;
+  border-radius: 8px;
+  border-color: #d0d5dd;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper .templately-theme-builder__choose-type .templately-theme-builder__choose-type__control .templately-theme-builder__choose-type__value-container {
+  padding-inline-start: 14px;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper .templately-theme-builder__choose-type .templately-theme-builder__choose-type__control .templately-theme-builder__choose-type__value-container .templately-theme-builder__choose-type__placeholder {
+  color: #667085;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-inline-start: 0;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper .templately-theme-builder__choose-type .templately-theme-builder__choose-type__control .templately-theme-builder__choose-type__value-container .templately-theme-builder__choose-type__single-value {
+  color: #1d2939;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-inline-start: 0;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper .templately-theme-builder__choose-type .templately-theme-builder__choose-type__control .templately-theme-builder__choose-type__indicators .templately-theme-builder__choose-type__indicator-separator {
+  display: none;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-type-wrapper .templately-theme-builder__choose-type .templately-theme-builder__choose-type__control .templately-theme-builder__choose-type__indicators .templately-theme-builder__choose-type__indicator {
+  padding-left: 12px;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-title {
+  width: 100%;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-title .components-base-control__field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+  margin-bottom: 0;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-title .components-base-control__field .components-base-control__label {
+  color: #344054;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.43;
+  text-transform: initial;
+  margin-bottom: 0;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-title .components-base-control__field .components-text-control__input {
+  min-height: 44px;
+  border-radius: 8px;
+  border-color: #d0d5dd;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  padding-inline: 14px;
+  color: #667085;
+  color: #1d2939;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-title .components-base-control__field .components-text-control__input::-moz-placeholder {
+  color: #667085;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .templately-theme-builder__choose-title .components-base-control__field .components-text-control__input::placeholder {
+  color: #667085;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .submit-button {
+  min-height: 48px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 24px;
+  border-radius: 50px;
+  background: #5453f4;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 32px;
+  border: none;
+  outline: none;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .submit-button.disabled {
+  cursor: not-allowed;
+  background-color: #9d9df4;
+}
+.templately-theme-builder-modal-container .templately-theme-builder-modal-popup .templately-theme-builder-modal-html .templately-theme-builder-modal-html-body .templately-theme-builder-modal-html-body-inner .submit-button:not(.disabled) {
+  cursor: pointer;
+}
+
+.templately-edit-conditions-app-wrapper {
+  display: none;
+}
+.templately-edit-conditions-app-wrapper.open {
+  position: absolute;
+  inset: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.templately-edit-conditions-app-wrapper.open::before {
+  position: absolute;
+  width: 100%;
+  content: "";
+  height: 100%;
+  background: #000;
+  inset: 0;
+  opacity: 0.8;
+  z-index: -1;
+}
+.templately-edit-conditions-app-wrapper.open #templately-edit-conditions-app {
+  margin: auto;
+  max-width: 1200px;
+  width: 95%;
+  max-height: 750px;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1800px) {
+  .ReactModal__Overlay .ril__image {
+    transform: none !important;
+    max-width: 85% !important;
+  }
+}
+
+.post-type-templately_library a.page-title-action.rendered {
+  padding: 0px;
+}
+.post-type-templately_library a.page-title-action.rendered:active {
+  padding: 0px;
+}
+.post-type-templately_library a.page-title-action.rendered span {
+  padding: 0 10px;
+  display: block;
+}

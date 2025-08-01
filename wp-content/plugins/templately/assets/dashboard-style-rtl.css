@@ -1,0 +1,314 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/.pnpm/postcss-loader@6.2.1_postcss@8.5.3_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/.pnpm/sass-loader@12.6.0_sass@1.86.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./react-src/styles/dashboard.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/.pnpm/postcss-loader@6.2.1_postcss@8.5.3_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/.pnpm/sass-loader@12.6.0_sass@1.86.0_webpack@5.98.0_webpack-cli@5.1.4_/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./react-src/styles/dashboard.scss (1) ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.templately-feedback-form {
+  font-family: "Inter", sans-serif;
+  z-index: 9999;
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  max-width: 570px;
+  width: 98%;
+  animation-name: popup;
+  animation-duration: 1.5s;
+}
+@keyframes popup {
+  from {
+    transform: translateX(-100%) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(0%) scale(1);
+    opacity: 1;
+  }
+}
+.templately-feedback-form .review-header {
+  background-color: #ffffff;
+  background-image: url(../images/customizer-header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+  border-radius: 16px 16px 0px 0px;
+  border-top: 1px solid #d0d5dd;
+  border-right: 1px solid #d0d5dd;
+  border-left: 1px solid #d0d5dd;
+  border-bottom: 1px solid #eaecf0;
+}
+.templately-feedback-form .review-header .templately-logo {
+  display: inline-flex;
+}
+.templately-feedback-form .review-header .templately-logo svg {
+  margin-left: 10px;
+}
+.templately-feedback-form .review-header .templately-logo svg + svg {
+  max-width: 143px;
+  margin-left: 0px;
+}
+.templately-feedback-form .review-header .templately-review-header-title {
+  margin: 0;
+  color: #1d2939;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0px;
+}
+.templately-feedback-form .review-header .templately-review-header-sub-title {
+  margin: 0;
+  color: #475467;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0px;
+}
+.templately-feedback-form .review-header .templately-review-header-close-button {
+  height: 32px;
+  width: 32px;
+  border: none;
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  left: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.templately-feedback-form .review-header .templately-review-header-close-button svg {
+  width: 11px;
+  height: auto;
+  fill: #475467;
+}
+.templately-feedback-form .review-body {
+  padding: 24px;
+  background-color: #ffffff;
+  border-right: 1px solid #d0d5dd;
+  border-left: 1px solid #d0d5dd;
+  border-bottom: 1px solid #d0d5dd;
+  border-radius: 0px 0px 16px 16px;
+}
+.templately-feedback-form .review-body .review-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  padding: 16px;
+}
+.templately-feedback-form .review-body .review-wrapper .title {
+  margin: 0;
+  color: #1d2939;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+.templately-feedback-form .review-body .review-wrapper .description {
+  margin: 0;
+  color: #667085;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+.templately-feedback-form .review-body .review-wrapper .description strong {
+  font-weight: 600;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+  gap: 10px;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating {
+  background-color: #f9fafb;
+  border: 1px solid #f9fafb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating .icon {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating.rating-1 .icon {
+  background-image: url(../images/ratting1.png);
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating.rating-2 .icon {
+  background-image: url(../images/ratting2.png);
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating.rating-3 .icon {
+  background-image: url(../images/ratting3.png);
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating.rating-4 .icon {
+  background-image: url(../images/ratting4.png);
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating.rating-5 .icon {
+  background-image: url(../images/ratting5.png);
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating span {
+  color: #1d2939;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: 0px;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-ratings .rating:hover {
+  border-color: #5453f4;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-scale {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-scale .not-satisfied,
+.templately-feedback-form .review-body .review-wrapper .ratting-wrapper .review-scale .very-satisfied {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #667085;
+  letter-spacing: 0px;
+}
+.templately-feedback-form .review-body .review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.templately-feedback-form .review-body .review-form .form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.templately-feedback-form .review-body .review-form .form-control label {
+  color: #344054;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+}
+.templately-feedback-form .review-body .review-form .form-control input {
+  height: 44px;
+  border: 1px solid #d0d5dd;
+  background-color: transparent;
+  padding: 2px 14px;
+  border-radius: 8px;
+  color: #1d2939;
+}
+.templately-feedback-form .review-body .review-form .form-control input::-moz-placeholder {
+  color: #667085;
+}
+.templately-feedback-form .review-body .review-form .form-control input::placeholder {
+  color: #667085;
+}
+.templately-feedback-form .review-body .review-form .form-control textarea {
+  height: 100px;
+  border: 1px solid #d0d5dd;
+  background-color: transparent;
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: #1d2939;
+}
+.templately-feedback-form .review-body .review-form .form-control textarea::-moz-placeholder {
+  color: #667085;
+}
+.templately-feedback-form .review-body .review-form .form-control textarea::placeholder {
+  color: #667085;
+}
+.templately-feedback-form .review-body .review-form .form-control .error {
+  margin: 0;
+  color: #f9365b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.templately-feedback-form .review-body .review-form .review-submit {
+  text-transform: capitalize;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: 2px 24px;
+  border-radius: 50px;
+  background: #5453f4;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+.templately-feedback-form .review-footer {
+  padding: 24px;
+  background-color: #ffffff;
+  border-top: 1px solid #eaecf0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-right: 1px solid #d0d5dd;
+  border-left: 1px solid #d0d5dd;
+  border-bottom: 1px solid #d0d5dd;
+  border-radius: 0px 0px 16px 16px;
+}
+.templately-feedback-form .review-footer .button {
+  text-transform: capitalize;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 2px 24px;
+  border-radius: 50px;
+  background: #5453f4;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  align-self: end;
+  border: none;
+  cursor: pointer;
+}
+.templately-feedback-form .review-footer .button:focus {
+  box-shadow: none;
+}
+.templately-feedback-form .review-footer .button.button-secondary {
+  background: #ffffff;
+  color: #667085;
+}
+.templately-feedback-form .review-footer .button > svg {
+  margin-right: 10px;
+}
+.templately-feedback-form.review .review-body {
+  border-bottom: none;
+  border-radius: 0;
+}
